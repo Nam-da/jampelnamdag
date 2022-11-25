@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Boxicons -->
+		<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+		
+		<!-- My CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/wish.css">
+
+		<title>AdminHub</title>
+	</head>
+
+	<body>
+
+		<!-- SIDEBAR -->
+    <section id="sidebar">
+
+			<a href="dashboard.html" class="brand">
+				<i class='bx bxs-smile'></i>
+				<span class="text">Genshin IMS</span>
+			</a>
+
+			<ul class="side-menu top">
+
+				<li>
+					<a href="dashboard.html">
+						<i class='bx bxs-dashboard' ></i>
+						<span class="text">Home</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<i class='bx bxs-shopping-bag-alt' ></i>
+						<span class="text">Profile</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="calender.html">
+						<i class='bx bxs-doughnut-chart' ></i>
+						<span class="text">Calender</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="map.html">
+						<i class='bx bxs-message-dots' ></i>
+						<span class="text">Map</span>
+					</a>
+				</li>
+
+				<li  class="active">
+					<a href="wish.html">
+						<i class='bx bxs-group' ></i>
+						<span class="text">Wishes</span>
+					</a>
+				</li>
+				<li>
+					<a href="rules.html">
+						<i class='bx bxs-cog' ></i>
+						<span class="text">Rules</span>
+					</a>
+				</li>
+
+			</ul>
+
+			<ul class="side-menu">
+				<li>
+
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					<a href="index.html" class="logout">
+						<i class='bx bxs-log-out-circle' ></i>
+						<span class="text">Logout</span>
+					</a>
+				</li>
+
+			</ul>
+
+		</section>
+		<!-- SIDEBAR -->
+
+		<!-- CONTENT -->
+		<section id="content">
+
+			<!-- NAVBAR -->
+			<nav>
+				<i class='bx bx-menu' ></i>
+				<a href="#" class="nav-link">Categories</a>
+
+				<form action="#">
+					<div class="form-input">
+						<input type="search" placeholder="Search...">
+						<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+					</div>
+				</form>
+
+				<input type="checkbox" id="switch-mode" hidden>
+				<label for="switch-mode" class="switch-mode"></label>
+
+				<a href="#" class="notification">
+					<i class='bx bxs-bell' ></i>
+					<span class="num">8</span>
+				</a>
+
+				<a href="profile.html" class="profile">
+					<img src="img\characters\xingqiu\xingqiu.png">
+				</a>
+
+			</nav>
+			<!-- NAVBAR -->
+            <section class="wishing">
+                <!--for demo wrap-->
+                <h1>Event Character Banner</h1>
+                <div class="tbl-header">
+                  <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                      <tr>
+                        <th>Wish Number</th>
+                        <th>Item Name</th>
+                        <th>Item Type</th>
+                        <th>Rarity</th>
+                        <th>Date Recieved</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+                <div class="tbl-content">
+                  <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td>231</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>230</td>
+                        <td>AUSENCO</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>229</td>
+                        <td>ADELAIDE</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>228</td>
+                        <td>Hu Tao</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>227</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>226</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>225</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>224</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>223</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>222</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>221</td>
+                        <td>ADELAIDE</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>220</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>219</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>218</td>
+                        <td>AUSENCO</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>217</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>216</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>215</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>214</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>213</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>212</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>211</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>210</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>209</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>208</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>207</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>206</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>205</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>204</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>203</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>202</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>201</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>200</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <section class="wishing">
+                <!--for demo wrap-->
+                <h1>Event Weapon Banner</h1>
+                <div class="tbl-header">
+                  <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                      <tr>
+                        <th>Wish Number</th>
+                        <th>Item Name</th>
+                        <th>Item Type</th>
+                        <th>Rarity</th>
+                        <th>Date Recieved</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+                <div class="tbl-content">
+                  <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td>231</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>230</td>
+                        <td>AUSENCO</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>229</td>
+                        <td>ADELAIDE</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>228</td>
+                        <td>Hu Tao</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>227</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>226</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>225</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>224</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>223</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>222</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>221</td>
+                        <td>ADELAIDE</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>220</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>219</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>218</td>
+                        <td>AUSENCO</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>217</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>216</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>215</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>214</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>213</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>212</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>211</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>210</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>209</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>208</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>207</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>206</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>205</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>204</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>203</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>202</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>201</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>200</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <section class="wishing">
+                <!--for demo wrap-->
+                <h1>Standard Character Banner</h1>
+                <div class="tbl-header">
+                  <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                      <tr>
+                        <th>Wish Number</th>
+                        <th>Item Name</th>
+                        <th>Item Type</th>
+                        <th>Rarity</th>
+                        <th>Date Recieved</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+                <div class="tbl-content">
+                  <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td>231</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>230</td>
+                        <td>AUSENCO</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>229</td>
+                        <td>ADELAIDE</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>228</td>
+                        <td>Hu Tao</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>227</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>226</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>225</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>224</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>223</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>222</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>221</td>
+                        <td>ADELAIDE</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>220</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>219</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>218</td>
+                        <td>AUSENCO</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>217</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>216</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>215</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>214</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>213</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>212</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>211</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>210</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>209</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>208</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>207</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>206</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>205</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>204</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>203</td>
+                        <td>AUSTRALIAN COMPANY </td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>202</td>
+                        <td>AUSENCO</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>201</td>
+                        <td>ADELAIDE</td>
+                        <td>Weapon</td>
+                        <td>⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                      <tr>
+                        <td>200</td>
+                        <td>ADITYA BIRLA</td>
+                        <td>Character</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>25/11/2022</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+		</section>
+        
+		<script src="js/index.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/wish.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Genshin-Font", sans-serif;
+}
+.bg {
+  width: 100vw;
+  height: 110vh;
+  background: linear-gradient(rgba(8, 12, 32, 0.7), rgba(8, 12, 32, 0.5)),
+    url(https://wallpapercave.com/wp/wp7486978.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 450px;
+  background-color: #f0ebe3;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+}
+.banner p {
+  position: absolute;
+  top: 1.8%;
+  left: 2%;
+  color: #cedde3;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.pfp {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  translate: -50% -50%;
+  background: url(./../img/card_bg/four_star_bg/Background_Item_4_Star.webp);
+  width: 110px;
+
+  border: 5px solid #f0ebe3;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.pfp img {
+  width: 100%;
+}
+
+.username {
+  margin-top: 3rem;
+}
+.username h2 {
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+p {
+  font-weight: normal;
+}
+
+.adventureRank,
+.worldLevel {
+  width: 90%;
+  padding: 0.5em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.adventureRank {
+  background-color: #a7b983;
+  color: #ffffff;
+}
+.worldLevel {
+  background-color: #cdbba5;
+  color: #ffffff;
+}
+
+.message {
+  width: 90%;
+  height: 200px;
+  padding: 1rem;
+  border: 2px solid #e1d7c8;
+  display: flex;
+  justify-content: flex-start;
+  color: #7f6e5d;
+  margin-bottom: 2rem;
+}

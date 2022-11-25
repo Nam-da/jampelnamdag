@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Boxicons -->
+		<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+		
+		<!-- My CSS -->
+		<link rel="stylesheet" href="css/dashboard.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/calender.css">
+
+		<title>Genshin Impact IMS</title>
+	</head>
+
+	<body>
+
+		<section id="sidebar">
+
+			<a href="dashboard.html" class="brand">
+				<i class='bx bxs-smile'></i>
+				<span class="text">Genshin IMS</span>
+			</a>
+
+			<ul class="side-menu top">
+
+				<li class="active">
+					<a href="dashboard.html">
+						<i class='bx bxs-dashboard' ></i>
+						<span class="text">Home</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<i class='bx bxs-shopping-bag-alt' ></i>
+						<span class="text">Profile</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="calender.html">
+						<i class='bx bxs-doughnut-chart' ></i>
+						<span class="text">Calender</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="map.html">
+						<i class='bx bxs-message-dots' ></i>
+						<span class="text">Map</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="wish.html">
+						<i class='bx bxs-group' ></i>
+						<span class="text">Wishes</span>
+					</a>
+				</li>
+				<li>
+					<a href="rules.html">
+						<i class='bx bxs-cog' ></i>
+						<span class="text">Rules</span>
+					</a>
+				</li>
+
+			</ul>
+
+			<ul class="side-menu">
+				<li>
+
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					<a href="index.html" class="logout">
+						<i class='bx bxs-log-out-circle' ></i>
+						<span class="text">Logout</span>
+					</a>
+				</li>
+
+			</ul>
+
+		</section>
+		<!-- CONTENT -->
+		<section id="content">
+
+			<!-- NAVBAR -->
+			<nav>
+				<i class='bx bx-menu' ></i>
+				<a href="#" class="nav-link">Categories</a>
+
+				<form action="#">
+					<div class="form-input">
+						<input type="search" placeholder="Search...">
+						<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+					</div>
+				</form>
+
+				<input type="checkbox" id="switch-mode" hidden>
+				<label for="switch-mode" class="switch-mode"></label>
+
+				<a href="#" class="notification">
+					<i class='bx bxs-bell' ></i>
+					<span class="num">8</span>
+				</a>
+
+				<a href="profile.html" class="profile">
+					<img src="img\characters\xingqiu\xingqiu.png">
+				</a>
+
+			</nav>
+
+      <!-- NAVBAR -->
+      <section class="body">
+        <div class="achievements">
+          <div class="global">
+            <div class="icons">
+              <img
+                src="img/icons/Achievement_Wonders_of_the_World.webp"
+                alt=""
+              />
+            </div>
+            <div class="count">
+              <h2>Total Acheivements</h2>
+              <p>312</p>
+            </div>
+          </div>
+          <div class="spiralAbyss">
+            <div class="icons">
+              <img src="img/icons/Achievement_Spiral_Abyss.webp" alt="" />
+            </div>
+            <div class="count">
+              <h2>Spiral Abyss</h2>
+              <p>8-3</p>
+            </div>
+          </div>
+        </div>
+        <div class="characterShowcase">
+          <h2 class="newHeading">Favorite Characters</h2>
+          <div class="character-container">
+            <div class="row">
+              <!-- 1 -->
+              <div class="col box-shadow">
+                <div class="characterPhoto star4">
+                  <img src="img/characters/xingqiu/xingqiu.png" alt="" />
+                  <div class="element">
+                    <img src="img/icons/elements/Element_Hydro.svg" alt="" />
+                  </div>
+                  <div class="stars fourStars">
+                    <img src="img/icons/Icon_4_Stars.webp" alt="" />
+                  </div>
+                </div>
+
+                <div class="description">
+                  <h3 class="name">Xingqiu</h3>
+                  <p class="type">Support, Books</p>
+                </div>
+              </div>
+
+              <!-- 2 -->
+
+              <div class="col box-shadow">
+                <div class="characterPhoto star5a">
+                  <img src="img/characters/hutao/hutao.webp" alt="" />
+                  <div class="element">
+                    <img src="img/icons/elements/Element_Pyro.svg" alt="" />
+                  </div>
+                  <div class="stars">
+                    <img src="img/icons/Icon_5_Stars.webp" alt="" />
+                  </div>
+                </div>
+                <div class="description">
+                  <h3 class="name">Hu Tao</h3>
+                  <p class="type">DPS, Poems</p>
+                </div>
+              </div>
+
+              <!-- 3 -->
+
+              <div class="col box-shadow">
+                <div class="characterPhoto star5">
+                  <img
+                    src="img/characters/eula/Character_Eula_Thumb.webp"
+                    alt=""
+                  />
+                  <div class="element">
+                    <img src="img/icons/elements/Element_Cryo.svg" alt="" />
+                  </div>
+                  <div class="stars">
+                    <img src="img/icons/Icon_5_Stars.webp" alt="" />
+                  </div>
+                </div>
+                <div class="description">
+                  <h3 class="name">Eula</h3>
+                  <p class="type">DPS, Amber</p>
+                </div>
+              </div>
+
+              <!-- 4 -->
+
+              <div class="col box-shadow">
+                <div class="characterPhoto star4">
+                  <img
+                    src="img/characters/amber/Character_Amber_Thumb.webp"
+                    alt=""
+                  />
+                  <div class="element">
+                    <img src="img/icons/elements/Element_Pyro.svg" alt="" />
+                  </div>
+                  <div class="stars fourStars">
+                    <img src="img/icons/Icon_4_Stars.webp" alt="" />
+                  </div>
+                </div>
+                <div class="description">
+                  <h3 class="name">Amber</h3>
+                  <p class="type">Outrider, Les..</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- 5 -->
+              <div class="col box-shadow">
+                <div class="characterPhoto star5">
+                  <img
+                    src="img/characters/diluc/Character_Diluc_Thumb.webp"
+                    alt=""
+                  />
+                  <div class="element">
+                    <img src="img/icons/elements/Element_Pyro.svg" alt="" />
+                  </div>
+                  <div class="stars">
+                    <img src="img/icons/Icon_5_Stars.webp" alt="" />
+                  </div>
+                </div>
+                <div class="description">
+                  <h3 class="name">Diluc</h3>
+                  <p class="type">DPS, Dad</p>
+                </div>
+              </div>
+
+              <!-- 6 -->
+
+              <div class="col box-shadow">
+                <div class="characterPhoto star5a">
+                  <img
+                    src="img/characters/jean/Character_Jean_Thumb.webp"
+                    alt=""
+                  />
+                  <div class="element">
+                    <img src="img/icons/elements/Element_Anemo.svg" alt="" />
+                  </div>
+                  <div class="stars">
+                    <img src="img/icons/Icon_5_Stars.webp" alt="" />
+                  </div>
+                </div>
+                <div class="description">
+                  <h3 class="name">Jean</h3>
+                  <p class="type">Sub-DPS, Mom</p>
+                </div>
+              </div>
+
+              <!-- 7 -->
+
+              <div class="col box-shadow">
+                <div class="characterPhoto star5a">
+                  <img
+                    src="img/characters/klee/Character_Klee_Thumb.webp"
+                    alt=""
+                  />
+                  <div class="element">
+                    <img src="img/icons/elements/Element_Pyro.svg" alt="" />
+                  </div>
+                  <div class="stars">
+                    <img src="img/icons/Icon_5_Stars.webp" alt="" />
+                  </div>
+                </div>
+                <div class="description">
+                  <h3 class="name">Klee</h3>
+                  <p class="type">DPS, The Child</p>
+                </div>
+              </div>
+
+              <!-- 8 -->
+
+              <div class="col box-shadow">
+                <div class="characterPhoto star4">
+                  <img
+                    src="img/characters/collei/Character_Collei_Thumb.webp"
+                    alt=""
+                  />
+                  <div class="element">
+                    <img src="img/icons/elements/Element_Dendro.svg" alt="" />
+                  </div>
+                  <div class="stars fourStars">
+                    <img src="img/icons/Icon_4_Stars.webp" alt="" />
+                  </div>
+                </div>
+                <div class="description">
+                  <h3 class="name">Collei</h3>
+                  <p class="type">Sub-DPS, Cute</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="summary">
+          <h2 class="newHeading">Summary</h2>
+          <div class="summary-container">
+            <div class="row">
+              <div class="col">
+                <div class="num">86</div>
+                <div class="text">Days Active</div>
+              </div>
+              <div class="col">
+                <div class="num">199</div>
+                <div class="text">Achievements Unlocked</div>
+              </div>
+              <div class="col">
+                <div class="num">66</div>
+                <div class="text">Anemoculi</div>
+              </div>
+              <div class="col">
+                <div class="num">131</div>
+                <div class="text">Geomoculi</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="num">17</div>
+                <div class="text">Characters Obtained</div>
+              </div>
+              <div class="col">
+                <div class="num">84</div>
+                <div class="text">Waypoints Unlocked</div>
+              </div>
+              <div class="col">
+                <div class="num">24</div>
+                <div class="text">Domains Unlocked</div>
+              </div>
+              <div class="col">
+                <div class="num">12-3</div>
+                <div class="text">Spiral-Abyss</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="num">64</div>
+                <div class="text">Luxurious Chests Opened</div>
+              </div>
+              <div class="col">
+                <div class="num">112</div>
+                <div class="text">Precious Chests Opened</div>
+              </div>
+              <div class="col">
+                <div class="num">772</div>
+                <div class="text">Exquisite Chests Opened</div>
+              </div>
+              <div class="col">
+                <div class="num">650</div>
+                <div class="text">Common Chests Opened</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
