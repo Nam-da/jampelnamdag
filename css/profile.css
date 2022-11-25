@@ -105,3 +105,13 @@ p {
   color: #7f6e5d;
   margin-bottom: 2rem;
 }
+
+.delete{
+  color: #000000;
+  font-size: 10px;
+}
+
+.delete:hover{
+  color: #ff0000;
+  cursor: pointer;  
+}
